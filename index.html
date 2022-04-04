@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dest/output.css">
+    <title>Document</title>
+</head>
+<body class="sm:bg-blue-300 md:bg-blue-300 lg:bg-blue-300 xl:bg-blue-300">
+    <div class="lg:ml-20 mt-10">
+        <h1 class="xl:text-4xl lg:text-4xl md:text-4xl sm:text-4xl sm:text-center">A contact page using tailwindcss</h1>
+    </div>
+    <div class="lg:ml-20 mt-10 bg-blue-50 p-20 sm:p-30 w-25 rounded-full" >
+       
+        <form>
+            <fieldset class="bg-blue-100 md:px-20 pt-5 rounded-lg ml-0" >
+                <legend class="font-mono text-lg"><strong>Contact details</strong></legend>
+                
+                <label for="first" class="ml-5 text-lg">Firstname</label>
+                <input type="text" class="rounded-full sm:mx-10" id="first"><br><br>
+                <label for="last" class="ml-5 text-lg">Lastname</label>
+                <input type="text" class="rounded-full sm:mx-10 lg:mx-5" id="last"><br><br>
+                <input type="radio" name="male" class="ml-5"><b>Male</b> 
+                <input type="radio" name="male" class="ml-5"><b>Female</b> <br><br>
+                <label for="email" class="ml-5 text-lg">Email</label>
+                <input type="email" id="email" placeholder="email@example.com" class="rounded-full sm:mx-10"><br><br>
+                <label for="password" class="ml-5 text-lg">Password</label>
+                <input type="password" id="password" class="bg-blue-150 rounded-full sm:mx-10"><br><br>
+                <button class="bg-blue-500 rounded-full w-30 text-lg text-blue-50 mb-8 p-5 mx-20" ><b>Sign In</b></button>
+
+            </fieldset>
+        </form>
+    </div> 
+</body>
+</html>
